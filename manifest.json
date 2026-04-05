@@ -1,0 +1,9 @@
+{
+  "domain": "horizons",
+  "name": "Horizons",
+  "version": "0.1.0",
+  "documentation": "https://github.com/kali/home-assistant-horizons",
+  "config_flow": true,
+  "codeowners": ["@kali"],
+  "iot_class": "calculated"
+}
