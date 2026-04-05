@@ -1,1 +1,11 @@
 DOMAIN = "horizons"
+
+CONF_LATITUDE = "latitude"
+CONF_LONGITUDE = "longitude"
+CONF_PROFILE_SOURCE = "profile_source"
+CONF_PROFILE_POINTS = "profile_points"
+CONF_PROFILE_RESOLUTION_DEG = "profile_resolution_deg"
+
+PROFILE_SOURCE_PVGIS = "pvgis"
+PVGIS_PROFILE_POINTS = 48
+PVGIS_PROFILE_RESOLUTION_DEG = 7.5

@@ -3,12 +3,20 @@
     "step": {
       "user": {
         "title": "Horizons",
-        "description": "Set the observer location.",
+        "description": "Fetch a horizon profile from PVGIS for this location.",
         "data": {
           "latitude": "Latitude",
           "longitude": "Longitude"
         }
       }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to PVGIS.",
+      "invalid_response": "PVGIS returned an invalid horizon profile.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
     }
   }
 }
